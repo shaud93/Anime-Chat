@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+
+{%block title%} Home {%endblock%}
+
+
+{%block content%}
+<h1>
+    <!--for testing-->
+    {{param1}}
+    {{param2}}
+    {{test}}
+</h1>
+
+<h1>
+    <!--verify search Catagory-->
+    {% if param1 == "anime" %}
+    <p> you are searching {{param1}} {{length}} </p>
+        <!--Display search content-->
+        {% for i in range(0,length) %}
+        <div class="Scontent">
+            <div class="Simgbox"><img src= "{{response[i]["image_url"]}}" alt="" class="Simg"></div> 
+            <div class="Sinfobox">Choice Title: {{response[i]["title"]}}</div>
+            
+        </div>
+        {% endfor %}
+    {% endif %}
+
+    {% if param1 == "manga" %}
+    <p> you are searching {{param1}} </p>
+    {% endif %}
+
+    {% if param1 == "person" %}
+    <p> you are searching {{param1}} </p>
+    {% endif %}
+
+    {% if param1 == "character" %}
+    <p> you are searching {{param1}} </p>
+    {% endif %}
+</h1>
+{%endblock%}

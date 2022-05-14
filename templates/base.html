@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%block title%} Base {%endblock%}</title>
+
+
+</head>
+<body>
+    <form action="/search" method="GET">
+    <div class="Bar">
+        <div class="NavBox"> <a class="Link" href="/">HOME</a></div>
+        <div class="Sbutton"> <button type="submit" class="Bsize">SEARCH</button> </div>
+        <div class="Sbox"><input type="text" name="Search" id="Search" placeholder="SEARCH" class="input"></div>
+        <div class="Select">
+            <select name="cat" id="cat" class="SelectSize">
+                <option value="anime">ANIME</option>
+                <option value="manga">MANGA</option>
+                <option value="person">PERSON</option>
+                <option value="character">CHARACTER</option>
+            </select>
+        </div>
+    </div>
+    </form>
+    
+    {% block content %}
+    {% endblock %}
+    <link rel="stylesheet" href="/static/style.css">
+</body>
+</html>

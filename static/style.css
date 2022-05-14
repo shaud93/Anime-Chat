@@ -1,0 +1,133 @@
+.Bar 
+{
+ background-color: black;
+ width: 100vw;
+ height:4vh;
+}
+
+.NavBox
+{
+    float: left;
+    text-align: center;
+    padding-top: 1vh;
+    width: 5vw;
+    height: 3vh;
+    font-size: 2vw;
+    font-size: 2vh;
+}
+
+.NavBox a:hover
+{
+    color: chocolate;
+}
+
+.Link
+{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.Sbox
+{
+    float: right;
+    width: 20vw;
+    height: 3vh;
+    padding-top: 1vh;
+}
+
+.input
+{
+    border-color: chocolate;
+    background-color:whitesmoke;
+    width: 19.5vw;
+    height: 2.5vh;
+    border-width: 0.1.5rem;
+}
+
+.Sbutton
+{
+    float: right;
+    padding-top: 1vh;
+    width: 5vw;
+    height: 3vh;
+}
+
+.Bsize
+{
+    color: whitesmoke;
+    background-color:chocolate;
+    border-color: chocolate;
+    border-width: 0.2rem;
+    width: 5vw;
+    height: 3vh;
+    font-size: 1.5vw;
+    font-size: 1.5vh;
+}
+
+.Sbutton button:hover
+{
+    background-color:dodgerblue;
+}
+
+.Select
+{
+    float: right;
+    text-align: center;
+    padding-top: 1vh;
+    width: 7vw;
+    height: 3vh;
+}
+
+.SelectSize
+{
+    color: whitesmoke;
+    background-color: black;
+    border-color: chocolate;
+    width: 7vw;
+    height: 3vh;
+    font-size: 1.5vw;
+    font-size: 1.5vh;
+    border-width: 0.2rem;
+}
+
+.SelectSize option:checked
+{
+    color: chocolate;
+}
+
+.Scontent
+{
+    width: 100vw;
+    height:20vh;
+}
+
+
+.Simg
+{
+    border-style: solid;
+    border-width: medium;
+    border-color: chocolate;
+    width: 20vw;
+    height:20vh;
+}
+
+.Simgbox
+{
+    float: left;
+    height: 20vh;
+}
+
+.Sinfobox
+{
+    float: left;
+    width: 40vw;
+    height: 20vh;
+}
+
+
+
+
+
+
+
+
